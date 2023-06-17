@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  selection{
+    display: flex;
+  }
+  
+  selection>:hover {
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: white;
+  }
+  
+  article{
+    min-width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    margin: 10px;
+  }
+  
+  article>:nth-child(1) {
+    font-size: 20px;
+    padding-top: 25px;
+    font-weight: bold;
+  }
+  
+  article>:nth-child(3) {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  article>:nth-child(4) {
+    color: #C0C0C0;
+  }
+  
+  article>:nth-child(5) {
+    font-weight: bold;
+  }
+  
+  article>:nth-child(6) {
+    padding: 7px 20px 7px 20px;
+    width: 50px;
+    margin-left: 32%;  
+    border-radius: 6px; 
+    color: white;
+  }
+  
+  .one{
+    background-color: red;
+  }
+  
+  .two{
+    background-color: gold;
+  }
+  
+  .three{
+    background-color:blue;
+  }
+  
+  .four{
+    background-color: green;
+  }
+  
+  selection:nth-child(1) hr{
+    background-color: red;
+    height: 3px;
+    border: none;
+  }
+  
+  selection :nth-child(2) hr{
+    background-color: gold;
+    height: 3px;
+    border: none;
+  }
+  
+  selection :nth-child(3) hr{
+    background-color:blue;
+    height: 3px;
+    border: none;
+  }
+  
+  selection :nth-child(4) hr{
+    background-color:green;
+    height: 3px;
+    border: none;
+  }
+  

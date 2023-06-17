@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adaptiv.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container {
+          max-width: 1280px;
+          margin: 0 auto;    
+        }
+        .logo, nav, main, aside {
+          border: 2px gray solid;
+          padding: 10px;
+        }
+        .flex {
+          display: flex;
+        }
+        aside .img {
+          width: 70px;
+          height: 70px;
+        }
+        aside>.flex {
+          gap: 5px;
+          flex-wrap: wrap;
+          justify-content: space-around
+        }
+        
+        .jcsb {
+          justify-content: space-between;
+        }
+       
+        a {
+          text-transform: uppercase;
+          text-decoration: none;
+          color: black;
+        }
+        nav {
+          margin: 10px 0;
+          gap: 10px;
+        }
+        nav input {
+          margin-left: auto;
+        }
+        footer {
+          margin-top: 10px;
+        }
+        aside {
+          margin-bottom: 10px;
+          margin-left: 10px;
+          width: 320px;
+        }
+        ul {
+          padding: 0;
+          list-style: none;
+        }
+
+        .topFinder {
+          display: none;
+        }
+        @media screen and (max-width:1024px) {
+          .topFinder {
+            display: inline;
+          }
+          .navFinder {
+            display: none;
+          }
+          aside{
+            width: 160px;
+          }
+          .img {
+          height: 200px;
+          
+        }
+        }
+        @media screen and (max-width:768px) {
+          .list {
+            display: none;
+          }
+          .content{
+            flex-direction: column;
+          }
+          aside{
+            width: 100%;
+            margin: 10px 0;
+            box-sizing: border-box;
+          }
+          .aife {
+          align-items: flex-start;
+        }
+        }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <header>
+          <div class="flex jcsb aife">
+            <div class="logo">Logo</div>
+            <input type="text" placeholder="find" class="topFinder"/>
+          </div>
+          <nav class="flex">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">galery</a>
+            <a href="#">contact</a>
+            <input type="text" placeholder="find" class="navFinder"/>
+          </nav>
+        </header>
+        <div class="flex content">
+          <main>
+            <h1>Lorem ipsum dolor</h1>
+            <div class="img"></div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia doloribus molestias, consequuntur incidunt sequi, quam nam neque officiis fugiat alias hic non quia. Ab, voluptates porro. Accusamus iusto animi consectetur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia doloribus molestias, consequuntur incidunt sequi, quam nam neque officiis fugiat alias hic non quia. Ab, voluptates porro. Accusamus iusto animi consectetur.</p>
+          </main>
+          <div>
+            <aside>
+              <p>List</p>
+              <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+                <li>item 4</li>
+                <li>item 5</li>
+              </ul>
+            </aside>
+            <aside>
+              Lorem
+              <div class="flex">
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+                <div class="img"></div>
+              </div>
+            </aside>
+          </div>
+        </div>
+        <footer>Copyright</footer>
+      </div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .main{
+    margin: 50px;
+    background-color: rgb(159,205,205);
+    border-radius: 25px;
+    width: 470px;
+    display: flex;
+  }
+  
+  section{
+    padding: 30px;
+  }
+  
+  .moon{
+    display: flex;
+    position: absolute;
+     background-image: url(/creditcard/moon.png);
+    margin-left: 340px;
+    margin-top: 90px;
+    height: 370px;
+    border-bottom-right-radius: 20px;
+    background-size: contain;
+    width: 220px;
+  }
+  
+  h2{
+    background-color: rgb(219,100,35);
+    width: 350px;
+    margin-right: 800px;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    font-size: 20px;
+  }
+  
+  form{
+    width: 420px;
+  }
+  
+  input{
+    background-color:  rgb(169,210,210);
+    margin-right: 20px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 1px;
+  }
+  
+  .name input, .number input{
+    width: 300px;
+  }
+  
+  .data input{
+    width: 82px;
+  }
+  
+  .card{
+    margin-left: 140px;
+  }
+  
+  .data, .name, .number{
+    margin-top: 20px;
+  }

@@ -17,9 +17,9 @@ body{
     display: flex;
     position: absolute;
      background-image: url(/creditcard/moon.png);
-    margin-left: 340px;
+    margin-left: 350px;
     margin-top: 90px;
-    height: 370px;
+    height: 220px;
     border-bottom-right-radius: 20px;
     background-size: contain;
     width: 220px;

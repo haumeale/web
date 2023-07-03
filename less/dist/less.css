@@ -1,0 +1,21 @@
+.container {
+  max-width: 1000px;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.container .content {
+  background-color: bisque;
+  padding: 20px;
+}
+.container .content-active {
+  color: red;
+}
+.container .content h1 {
+  font-size: 20px;
+}
+.container .content p {
+  color: aqua;
+}
+.container .content p:hover {
+  color: pink;
+}

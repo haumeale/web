@@ -1,0 +1,15 @@
+.container {
+    max-width: 1000px;
+    background: bisque;
+    border-radius: 10px;
+    margin: 20px auto;
+    .content{
+        padding: 20px;
+        h1{
+            font-size: 20px;
+        }
+        p {
+            color: aqua;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+@bgColor: bisque;
+@borderRadius: 10px;
+
+
+.container {
+    max-width: 1000px;
+    border-radius: @borderRadius;
+    margin: 20px auto;
+    .content{
+        background-color: @bgColor;
+        padding: 20px;
+        &-active {
+            color: red;
+        }
+        h1{
+            font-size: 20px;
+        }
+        p {
+            color: aqua;
+            &:hover {
+                color: pink;
+            }
+        }
+    }
+}
